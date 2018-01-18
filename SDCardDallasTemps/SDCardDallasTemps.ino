@@ -89,7 +89,7 @@ void loop(void)
     myFile.print(", ");
     for (int i = 0; i < 5; i++){
       myFile.print(sensors.getTempCByIndex(i) * 9 / 5 + 32);
-      Serial.print(", ");
+      myFile.print(", ");
     }    
     
     timeNow = millis();      

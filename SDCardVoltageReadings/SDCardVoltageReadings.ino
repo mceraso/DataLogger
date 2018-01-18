@@ -33,8 +33,8 @@ long timeNow;
 
 void setup() {
 
-    pinMode(10, OUTPUT);
-    digitalWrite(10, HIGH);
+    //pinMode(10, OUTPUT);
+    //digitalWrite(10, HIGH);
   
     Serial.begin(9600);
     
