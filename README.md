@@ -28,7 +28,7 @@ to develop this sketch. Pictures of our wiring diagram setup to come.
 # Power Challenges
 
 Using SDCardVoltageReadings.ino, we ran into an issue where an SD card failed and would get extremely hot when plugged into a computer
-oor into our device. A new SD card would not work with the original set up, and we discovered that both the Arduino Nano and Micro SD
+or into our device. A new SD card would not work with the original set up, and we discovered that both the Arduino Nano and Micro SD
 Card Adapter had failed. We do not yet know why this equipment failed, but we believe it has to do with the battery set up. In our
 original design, we plugged a 5V battery into the micro USB port of the nano. This thread suggests that this is problematic:
 https://electronics.stackexchange.com/questions/60199/powering-arduino-nano-12volts.
